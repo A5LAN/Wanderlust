@@ -1,11 +1,11 @@
 jQuery(function($) {
     // Asynchronously Load the map API 
     var script = document.createElement('script');
-    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA8gObLmXst_P2OxvOvtPpi2YjgtFwbkh4&callback=initialize";
+    script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyA8gObLmXst_P2OxvOvtPpi2YjgtFwbkh4&callback=initMap";
     document.body.appendChild(script);
 });
 
-function initialize() {
+function initMap() {
     var map;
     var bounds = new google.maps.LatLngBounds();
     var mapOptions = {
