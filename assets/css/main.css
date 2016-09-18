@@ -3169,6 +3169,7 @@
 
 			#header a:last-child {
 				padding-right: 0em;
+				
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3957,3 +3958,10 @@
 			}
 
 		}
+
+		.logo-slogan {
+			padding-left: 200px;
+			font-size:large;
+		}
+		
+
