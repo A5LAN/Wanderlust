@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<!--
+	Introspect by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Wanderlust</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
+		<style type="text/css">
+		  html, body { height: 100%; margin: 10; padding: 20; }
+		  #map { width: 70%; height: 100%; margin: auto; display:inline-block}
+		</style>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"> Wanderlust - Pages</a>
+					<nav id="nav">
+						<a href="stories.html">News Feed</a>
+						<a href="map.html">Pages</a>
+						<a href="message.html">Messages</a>
+						<a href="profile.html">Profile</a>
+						<a href="stories.html">Settings</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" >
+				<div class="inner">
+					<header class="major special">
+						<h1>Wanderlust</h1>
+						<p>Don't know where to go for Vacation?</p>
+					</header>
+					</div>
+					</section>
+					    <div id="map"></div>
+					    <script>
+					      var map;
+					      function initMap() {
+					        map = new google.maps.Map(document.getElementById('map'), {
+					          center: {lat: -34.397, lng: 150.644},
+					          zoom: 8
+					        });
+					      }
+				    </script>
+    				 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHJSBacwM-ytXx_kW3MSxOguteupRkcwE&callback=initMap">
+   					 </script>
+				
+			
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+						<h2>Get in Touch</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="alt" /></li>
+						</ul>
+					</form>
+					<div class="copyright">
+						&copy; Untitled Design: <a href="https://templated.co/">TEMPLATED</a>. Images <a href="https://unsplash.com/">Unsplash</a>
+					</div>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
